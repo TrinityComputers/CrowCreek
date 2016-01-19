@@ -1,0 +1,439 @@
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Blue Thumb Volunteer Testing Record</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="site">Site Name</label>
+  <div class="col-md-6">
+  <input id="site" name="site" type="text" placeholder="Enter site name" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="WBID">WBID #</label>
+  <div class="col-md-6">
+  <input id="WBID" name="WBID" type="text" placeholder="Enter WBID Number" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="legal_desc">Legal</label>
+  <div class="col-md-6">
+  <input id="legal_desc" name="legal_desc" type="text" placeholder="Enter legal description" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="county">County</label>
+  <div class="col-md-6">
+  <input id="county" name="county" type="text" placeholder="Enter County" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="date">Date</label>
+  <div class="col-md-6">
+  <input id="date" name="date" type="text" placeholder="MM/DD/YY" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="lat">Latitude</label>
+  <div class="col-md-6">
+  <input id="lat" name="lat" type="text" placeholder="Enter Latitude" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="long">Longitude</label>
+  <div class="col-md-6">
+  <input id="long" name="long" type="text" placeholder="Enter Longitude" class="form-control input-md">
+
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="time">Site Time</label>
+  <div class="col-md-6">
+  <input id="time" name="time" type="text" placeholder="Enter Time in Military Notation (HH:mm)" class="form-control input-md" required="">
+
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="samplers">Samplers</label>
+  <div class="col-md-4">
+    <textarea class="form-control" id="samplers" name="samplers"></textarea>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="weather">Weather</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="weather-0">
+      <input type="radio" name="weather" id="weather-0" value="1" checked="checked">
+      Fair Skies
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-1">
+      <input type="radio" name="weather" id="weather-1" value="2">
+      Overcast
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-2">
+      <input type="radio" name="weather" id="weather-2" value="3">
+      Haze
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-3">
+      <input type="radio" name="weather" id="weather-3" value="4">
+      Fog
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-4">
+      <input type="radio" name="weather" id="weather-4" value="5">
+      Drizzle
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-5">
+      <input type="radio" name="weather" id="weather-5" value="6">
+      Intermittent Rain
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-6">
+      <input type="radio" name="weather" id="weather-6" value="7">
+      Rain
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-7">
+      <input type="radio" name="weather" id="weather-7" value="8">
+      Heavy Rain
+    </label>
+	</div>
+  <div class="radio">
+    <label for="weather-8">
+      <input type="radio" name="weather" id="weather-8" value="9">
+      Snow/Sleet/Ice
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="wind_speed">Wind Speed</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="wind_speed-0">
+      <input type="radio" name="wind_speed" id="wind_speed-0" value="1" checked="checked">
+      Calm (&lt;1 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-1">
+      <input type="radio" name="wind_speed" id="wind_speed-1" value="2">
+      Light air;Smoke drift (1-3 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-2">
+      <input type="radio" name="wind_speed" id="wind_speed-2" value="3">
+      Light breeze; felt on face (4-7 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-3">
+      <input type="radio" name="wind_speed" id="wind_speed-3" value="4">
+      Leaves/twigs move/flag extends (8-12 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-4">
+      <input type="radio" name="wind_speed" id="wind_speed-4" value="56">
+      Branches Move/dust, paper blow (13-18 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-5">
+      <input type="radio" name="wind_speed" id="wind_speed-5" value="7">
+      Small trees sway (19-24 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-6">
+      <input type="radio" name="wind_speed" id="wind_speed-6" value="8">
+      Large branches sway/ umbrella hard to use (25-31 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-7">
+      <input type="radio" name="wind_speed" id="wind_speed-7" value="9">
+      Hard to walk (32-38 mph)
+    </label>
+	</div>
+  <div class="radio">
+    <label for="wind_speed-8">
+      <input type="radio" name="wind_speed" id="wind_speed-8" value="">
+      Other (branches breaking/roofing flying/trees uprooted)
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="stream_stage">Stream Stage</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="stream_stage-0">
+      <input type="radio" name="stream_stage" id="stream_stage-0" value="1" checked="checked">
+      Dry
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-1">
+      <input type="radio" name="stream_stage" id="stream_stage-1" value="2">
+      No flow
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-2">
+      <input type="radio" name="stream_stage" id="stream_stage-2" value="3">
+      Trace
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-3">
+      <input type="radio" name="stream_stage" id="stream_stage-3" value="4">
+      Low flow
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-4">
+      <input type="radio" name="stream_stage" id="stream_stage-4" value="5">
+      Base flow
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-5">
+      <input type="radio" name="stream_stage" id="stream_stage-5" value="6">
+      Slightly elevated
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-6">
+      <input type="radio" name="stream_stage" id="stream_stage-6" value="7">
+      Elevated
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-7">
+      <input type="radio" name="stream_stage" id="stream_stage-7" value="8">
+      Elevated/No flow
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stream_stage-8">
+      <input type="radio" name="stream_stage" id="stream_stage-8" value="9">
+      High flow
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="stage_qual">Stage Qualifier</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="stage_qual-0">
+      <input type="radio" name="stage_qual" id="stage_qual-0" value="1" checked="checked">
+      Stable
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stage_qual-1">
+      <input type="radio" name="stage_qual" id="stage_qual-1" value="2">
+      Rising
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stage_qual-2">
+      <input type="radio" name="stage_qual" id="stage_qual-2" value="3">
+      Falling
+    </label>
+	</div>
+  <div class="radio">
+    <label for="stage_qual-3">
+      <input type="radio" name="stage_qual" id="stage_qual-3" value="4">
+      Unknown
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Multiple Checkboxes -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="site_obs">Stream Site Observations</label>
+  <div class="col-md-4">
+  <div class="checkbox">
+    <label for="site_obs-0">
+      <input type="checkbox" name="site_obs" id="site_obs-0" value="1">
+      Not applicable
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-1">
+      <input type="checkbox" name="site_obs" id="site_obs-1" value="2">
+      Clean
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-2">
+      <input type="checkbox" name="site_obs" id="site_obs-2" value="3">
+      Manure in stream
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-3">
+      <input type="checkbox" name="site_obs" id="site_obs-3" value="4">
+      Unsightly appearance (color)
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-4">
+      <input type="checkbox" name="site_obs" id="site_obs-4" value="5">
+      Foam/Scum
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-5">
+      <input type="checkbox" name="site_obs" id="site_obs-5" value="6">
+      Floating Detritus
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-6">
+      <input type="checkbox" name="site_obs" id="site_obs-6" value="7">
+      Trash
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-7">
+      <input type="checkbox" name="site_obs" id="site_obs-7" value="8">
+      Significant algae
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-8">
+      <input type="checkbox" name="site_obs" id="site_obs-8" value="9">
+      Fish kill
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-9">
+      <input type="checkbox" name="site_obs" id="site_obs-9" value="10">
+      Dead animal(s) in stream
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-10">
+      <input type="checkbox" name="site_obs" id="site_obs-10" value="11">
+      Iron precipitates
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-11">
+      <input type="checkbox" name="site_obs" id="site_obs-11" value="12">
+      Siltation
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-12">
+      <input type="checkbox" name="site_obs" id="site_obs-12" value="13">
+      Flow alteration
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-13">
+      <input type="checkbox" name="site_obs" id="site_obs-13" value="14">
+      Habitat alteration
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-14">
+      <input type="checkbox" name="site_obs" id="site_obs-14" value="15">
+      Oily film/Grease
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-15">
+      <input type="checkbox" name="site_obs" id="site_obs-15" value="16">
+      Offensive odor
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-16">
+      <input type="checkbox" name="site_obs" id="site_obs-16" value="17">
+      Exotic species
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-17">
+      <input type="checkbox" name="site_obs" id="site_obs-17" value="18">
+      Other - Discuss in comments
+    </label>
+	</div>
+  <div class="checkbox">
+    <label for="site_obs-18">
+      <input type="checkbox" name="site_obs" id="site_obs-18" value="19">
+      Recent Cattle Activity inn stream
+    </label>
+	</div>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="supply_request">Need Reagents/Supplies</label>
+  <div class="col-md-4">
+    <button id="supply_request" name="supply_request" class="btn btn-primary">Click Here</button>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="comments">Comments</label>
+  <div class="col-md-4">
+    <textarea class="form-control" id="comments" name="comments"></textarea>
+  </div>
+</div>
+
+</fieldset>
+</form>
